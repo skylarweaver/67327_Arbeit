@@ -1,0 +1,12 @@
+<% form_tag sessions_path do %>
+  <p>
+    <%= label_tag :login %>
+    <%= text_field_tag :login %>
+		<br>
+		<!-- TODO: verify that encoding the passwords as Base64 strings is sufficiently secure -->
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
+		<br>
+		<span class="login_button"><%= submit_tag "Log in" %></span>
+	</p>
+<% end %>

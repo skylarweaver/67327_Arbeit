@@ -1,0 +1,261 @@
+.completed_task {
+	background-color: #B1FBB8;
+	width: 400px;
+	padding-left: 10px;
+	border: 1px solid #008040;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 60px;
+	color: #008040;
+}
+.completed_task a {
+	color: #008040;
+}
+.completed_task .smtext {
+	color: #008040;
+}
+
+.high_priority {
+	background-color: #e7aaa0;
+	width: 400px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	height: 60px;
+}
+
+.low_priority {
+	background-color: #f9fda5;
+	width: 400px;
+	padding-left: 10px;
+	border: 2px solid yellow;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 60px;
+}
+
+.med_priority {
+	background-color: #FAB38C;
+	width: 400px;
+	padding-left: 10px;
+	border: 2px solid orange;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 60px;
+}
+
+.high_priority a {
+	color: #800000;
+}
+.high_priority .smtext {
+	color: #800000;
+}
+
+.low_priority a {
+	color: #C36100;
+}
+.low_priority .smtext {
+	color: #C36100;
+}
+
+.med_priority a {
+	color: #D56B00;
+}
+.med_priority .smtext {
+	color: #D56B00;
+}
+
+.tl_name {
+	width: 225px;
+	display: block;
+	position: absolute;
+}
+
+.tl_date {
+	width: 65px;
+	display: block;
+	position: absolute;
+	margin-left: 250px;
+}
+
+.tl_controls {
+	width:  68px;
+	display: block;
+	margin-left: 330px;
+}
+
+.project_item {
+	background-color: #d1ecfb;
+	width: 400px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid blue;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.supertiny {
+	font-size:5px;
+	text-decoration:none;
+}
+
+.add_link {
+	font-size:75%;
+	font-style: normal;
+	font-weight: normal;
+}
+
+body { 
+	padding-top: 10px; 
+	/*font-size: 14px;*/
+	background-color: #004080;
+} 
+
+#wrapper { 
+	/*background-color: #004080;*/
+	background-color: #ffffff;
+}
+
+#main_content {
+	/*margin-left: 15px;*/
+	/*margin-right: 15px;*/
+}
+
+.well {
+	line-height: 1.5;
+	background-color: #E8FFFF;
+	width: 90%;
+}
+
+.well li {
+	font-size: 110%;
+	line-height: 1.5;
+}
+
+.table th.centered, .table td.centered {
+    text-align: center;
+}
+
+#footer {
+	margin-top: 15px;
+	margin-bottom: 15px;
+  padding-top: 0px;
+	background-color:#004080;
+	color: #ffffff;
+	text-align: center;
+}
+
+#footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #D0F7FF;
+	text-decoration: underline;
+}
+
+.navbar-inner {
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.ident {
+	padding-top: 10px;
+}
+
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+	background-color: #E8FFFF;
+}
+
+#copy {
+	font-size: 85%;
+	text-align: center;
+}
+
+/* Setting up min_task divs */
+.min_task {
+	background-color: #d1ecfb;
+	/*width: 400px;*/
+	padding: 2px 2px 2px 5px;
+	border: 1px solid blue;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	select { width: 185px; }
+	input { width: 180px; }
+}
+
+/* Cutting back the spacing on simple_form... */
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 3px;
+    text-align: right;
+    width: 80px;
+		font-size: 90%;
+}
+.form-horizontal .controls {
+    margin-left: 90px;
+		/*width: 350px;*/
+}
+
+.form-horizontal .min_task .control-label {
+    float: left;
+    padding-top: 3px;
+    text-align: right;
+    width: 60px;
+		font-size: 90%;
+}
+.form-horizontal .min_task .controls {
+    margin-left: 70px;
+		width: 200px;
+}
+
+select.date { width: 90px; }
+select.time { width: 90px; }
+
+.form-actions {
+	background-color: #FFF;
+}
+
+.form-actions-min {
+	background-color: #FFF;
+	border: none;
+	padding: 10px 10px 10px 180px;
+	/*padding-left: 180px;*/
+}
+
+.pagination ul > li > a, .pagination ul > li > span {
+	border-left-width: 1px;
+}
+
+
+/*** TEMP FIX ON BOOTSTRAP ICONS ***/
+.icon-th-list {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-file {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-list {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-pencil {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-remove {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-plus {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+.icon-arrow-left {
+	background-image: url("./img/glyphicons-halflings.png");
+}
+
+.icon-white {
+	background-image: url("./img/glyphicons-halflings-white.png");
+}

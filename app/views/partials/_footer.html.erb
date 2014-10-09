@@ -1,0 +1,14 @@
+
+<div id="footer">
+
+	<%= link_to 'Home', home_path %>&nbsp;&nbsp;::&nbsp;&nbsp;
+	<%= link_to 'About Arbeit', statics_path(:page => 'about'.parameterize.gsub(/-/, '_')) %>&nbsp;&nbsp;::&nbsp;&nbsp;
+	<%= link_to 'Contact Us', statics_path(:page => 'contact'.parameterize.gsub(/-/, '_')) %>&nbsp;&nbsp;::&nbsp;&nbsp;
+	<%= link_to 'Privacy Policy', statics_path(:page => 'privacy'.parameterize.gsub(/-/, '_')) %>
+	
+	<div id="copy">
+		Webmaster: <%= mail_to("profh@cmu.edu", "Klingon Code Warrior", encode: "javascript") %> 
+		&nbsp;&nbsp;&copy 2013
+	</div>
+
+</div>
