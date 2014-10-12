@@ -39,7 +39,6 @@ class ProjectsController < ApplicationController
     @project.manager_id = current_user.id 
     @project.start_date = convert_to_date(params[:project][:start_date]) # unless params[:project][:start_date].blank?
     @project.end_date = convert_to_date(params[:project][:end_date]) # unless params[:project][:end_date].blank?
-    @project.domain_id = params[:domain_id]
     
     if @project.save
       # if saved to database
@@ -59,6 +58,7 @@ class ProjectsController < ApplicationController
     # students will commonly edit these fields and see no persistent data
     @project.description = params[:project]
     @project.name = params[:name]
+    @project.domain_id = params[:domain_id]
     
     if @project.save
       flash[:notice] = "#{@project.name} has been updated."
